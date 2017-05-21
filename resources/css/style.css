@@ -1,5 +1,8 @@
-/*Main Header and Navigation*/
+body {
+  background: white
+}
 
+/*Main Header and Navigation*/
 header {
   display: flex;
   align-items: center;
@@ -10,11 +13,14 @@ header {
   font-size: 14px;
   font-weight: bold;
   z-index: 10;
+  background-color: white;
+  position: fixed;
 }
 
 header span {
   color: mediumaquamarine;
   margin: 10px;
+  font-family: "Verdana", sans-serif;"
 }
 
 .logo {
@@ -29,4 +35,58 @@ nav a{
   color: black;
   display: inline-block;
   margin: 10px;
+}
+
+/*--large column*/
+
+.main-content {
+  display: inline-flex;
+  padding-top: 100px;
+  }
+
+.large-column {
+  width: 630px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  margin: 20px 0 0 30px;
+}
+
+.medium-column {
+  width: 300px;
+  margin-left: 15px;
+}
+
+.small-column {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.mother-story-image {
+  display: flex;
+  background-image: url("../../resources/images/img-story-main.png");
+  height: 300px;
+  text-align: left;
+}
+.mother-story-image h2{
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 20px;
+}
+
+p {
+  font-size: 17px
+  color: green;
+}
+
+.orca-story h2{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
 }
