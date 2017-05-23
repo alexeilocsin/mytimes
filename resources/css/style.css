@@ -50,11 +50,13 @@ nav a{
   flex-wrap: wrap;
   align-self: flex-start;
   margin: 20px 0 0 30px;
+  border: 2px solid black;
 }
 
 .medium-column {
   width: 300px;
   margin-left: 15px;
+  border: 2px solid black;
 }
 
 .small-column {
@@ -62,6 +64,7 @@ nav a{
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+  border: 2px solid black;
 }
 
 .mother-story-image {
