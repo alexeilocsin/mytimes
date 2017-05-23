@@ -46,7 +46,7 @@ nav a{
 
 .large-column {
   width: 630px;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   align-self: flex-start;
   margin: 20px 0 0 30px;
@@ -85,8 +85,14 @@ p {
   color: green;
 }
 
-.orca-story h2{
+.orca-story, .burger-story {
   font-weight: bold;
   font-size: 30px;
   color: black;
+}
+
+.orca-story-content, .burger-story-content {
+  display: inline-flex;
+  width: 300px;
+  margin-left: 5px;
 }
