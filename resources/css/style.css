@@ -92,6 +92,12 @@ h3{
   width: 300px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
 .orca-title, .burger-title {
   display: inline-flex;
   width: 300px
