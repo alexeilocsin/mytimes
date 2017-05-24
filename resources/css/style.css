@@ -207,8 +207,10 @@ footer {
   margin-left: 30px;
 }
 
-.title-footer span {
-  display: inline-block;
+span.title-footer{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
   color: white;
   padding: 20px 20px;
 }
