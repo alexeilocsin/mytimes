@@ -100,7 +100,7 @@ h3{
 
 .earth-image {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   background-image: url("../../resources/images/img-story-2.png");
   background-size: cover;
   height: 300px;
@@ -112,7 +112,7 @@ h3{
 
 .camera-image {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   background-image: url("../../resources/images/img-story-3.png");
   background-size: cover;
   height: 300px;
