@@ -86,6 +86,12 @@ h3{
   margin: 20px 20px;
 }
 
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .orca-title, .burger-title {
   display: inline-flex;
   width: 300px
